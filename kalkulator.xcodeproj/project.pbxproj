@@ -15,6 +15,7 @@
 		320ECAB722C018BE005AD55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320ECAB522C018BE005AD55F /* LaunchScreen.storyboard */; };
 		320ECAC222C018BE005AD55F /* kalkulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ECAC122C018BE005AD55F /* kalkulatorTests.swift */; };
 		320ECACD22C018BE005AD55F /* kalkulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ECACC22C018BE005AD55F /* kalkulatorUITests.swift */; };
+		320ECADB22C02A17005AD55F /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320ECADA22C02A17005AD55F /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		320ECAC822C018BE005AD55F /* kalkulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalkulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320ECACC22C018BE005AD55F /* kalkulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalkulatorUITests.swift; sourceTree = "<group>"; };
 		320ECACE22C018BE005AD55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320ECADA22C02A17005AD55F /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				320ECAAA22C018BD005AD55F /* AppDelegate.swift */,
 				320ECAAC22C018BD005AD55F /* SceneDelegate.swift */,
+				320ECADA22C02A17005AD55F /* Math.swift */,
 				320ECAAE22C018BD005AD55F /* ViewController.swift */,
 				320ECAB022C018BD005AD55F /* Main.storyboard */,
 				320ECAB322C018BE005AD55F /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				320ECAAF22C018BD005AD55F /* ViewController.swift in Sources */,
 				320ECAAB22C018BD005AD55F /* AppDelegate.swift in Sources */,
 				320ECAAD22C018BD005AD55F /* SceneDelegate.swift in Sources */,
+				320ECADB22C02A17005AD55F /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
