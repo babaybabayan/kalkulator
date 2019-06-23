@@ -32,16 +32,10 @@ class ViewController: UIViewController {
             math.numberOfScreen = Double(labelKal.text!)!
             math.performingMath = false
         }else{
-            if labelKal.text == "0"{
-                print(labelKal.text)
-                print("ok")
-                math.performingMath = true
-            }else{
                 labelKal.text! += String((sender as AnyObject).tag)
                 math.numberOfScreen = Double(labelKal.text!)!
             }
             
-        }
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
