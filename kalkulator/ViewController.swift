@@ -9,12 +9,63 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var btnZero: UIButton!
+    @IBOutlet weak var labelKal: UILabel!
+    
+    let math = Math()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        clear()
     }
-
-
+    
+    func clear () {
+        labelKal.text = String(math.number[0])
+    }
+    
+    @IBAction func numbers(_ sender: Any) {
+        print("dua")
+        if math.performingMath == true {
+            labelKal.text = String((sender as AnyObject).tag)
+            math.numberOfScreen = Double(labelKal.text!)!
+            math.performingMath = false
+        }else{
+            if labelKal.text == "0"{
+                print(labelKal.text)
+                print("ok")
+                math.performingMath = true
+            }else{
+                labelKal.text! += String((sender as AnyObject).tag)
+                math.numberOfScreen = Double(labelKal.text!)!
+            }
+            
+        }
+    }
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        print("satu")
+        
+        if labelKal.text != "" && (sender as AnyObject).tag != 10 && (sender as AnyObject).tag != 17 {
+            
+            math.previousNumber = Double(labelKal.text!)!
+            //print(math.previousNumber)
+            
+            math.operation = (sender as AnyObject).tag
+            math.performingMath = true
+        }
+        
+        if (sender as AnyObject).tag == 10 {
+            clear()
+        }
+        
+        if (sender as AnyObject).tag == 1 {
+            //math.previousNumber = Double(math.number[1])
+            math.performingMath = false
+        }
+        
+    }
+    
 }
 
