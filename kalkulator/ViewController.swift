@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numbers(_ sender: Any) {
-        print("dua")
+
         if math.performingMath == true {
             labelKal.text = String((sender as AnyObject).tag)
             math.numberOfScreen = Double(labelKal.text!)!
@@ -35,11 +35,10 @@ class ViewController: UIViewController {
                 labelKal.text! += String((sender as AnyObject).tag)
                 math.numberOfScreen = Double(labelKal.text!)!
             }
-            
+        
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
-        print("satu")
         
         if labelKal.text != "" && (sender as AnyObject).tag != 10 && (sender as AnyObject).tag != 17 {
             
