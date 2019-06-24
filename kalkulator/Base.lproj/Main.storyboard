@@ -163,7 +163,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZiX-hv-yQc"/>
-                                                    <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHz-BG-D5e"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPi-yO-hqb">
@@ -175,7 +174,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64s-Xh-pSQ"/>
-                                                    <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftm-kf-UMd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wP-0f-PsJ">
@@ -208,7 +206,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BP6-Fc-Og2"/>
-                                                    <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFe-7x-bvm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMo-Hu-J7e">
