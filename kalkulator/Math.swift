@@ -8,6 +8,21 @@
 
 import Foundation
 
+enum operators: String {
+    case kali = "x"
+    case bagi = "/"
+    case tambah = "+"
+    case kurang = "-"
+    case persen = "%"
+    case empty = ""
+}
+
 class Math {
+    
+    var runningNumber: String!
+    var leftNumber: String!
+    var rightNumber: String!
+    var result: String!
+    var typeOfOperator = operators.empty
     
 }
